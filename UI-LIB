@@ -38,7 +38,7 @@ function library:CreateWindow(name, version, icon)
 
 	Window.Name = "Window"
 	Window.Parent = MyGui
-	Window.BackgroundColor3 = Color3.fromRGB(409, 409, 509)
+	Window.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 	Window.Position = UDim2.new(0.5, -300, 0.600000024, -200)
 	Window.Size = UDim2.new(0, 0, 0, 0)
 	Window.ClipsDescendants = true
@@ -48,22 +48,22 @@ function library:CreateWindow(name, version, icon)
 
 	TitleBar.Name = "TitleBar"
 	TitleBar.Parent = Window
-	TitleBar.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
+	TitleBar.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 	TitleBar.BackgroundTransparency = 1.000
 	TitleBar.Size = UDim2.new(1, 0, 0, 30)
 
 	Icon.Name = "Icon"
 	Icon.Parent = TitleBar
-	Icon.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
+	Icon.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 	Icon.BackgroundTransparency = 1.000
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
 	Icon.Image = "rbxassetid://"..icon
-	Icon.ImageColor3 = Color3.fromRGB(135, 205, 195)
+	Icon.ImageColor3 = Color3.fromRGB(10, 24, 225)
 
 	MainTitle.Name = "Title"
 	MainTitle.Parent = TitleBar
-	MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	MainTitle.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 	MainTitle.BackgroundTransparency = 1.000
 	MainTitle.Position = UDim2.new(0, 30, 0, 1)
 	MainTitle.Size = UDim2.new(1, -30, 1, 0)
@@ -75,7 +75,7 @@ function library:CreateWindow(name, version, icon)
 
 	TitleUnderline.Name = "TitleUnderline"
 	TitleUnderline.Parent = TitleBar
-	TitleUnderline.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+	TitleUnderline.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 	TitleUnderline.BorderSizePixel = 0
 	TitleUnderline.Position = UDim2.new(0, 0, 1, 0)
 	TitleUnderline.Size = UDim2.new(1, 0, 0, 1)
@@ -110,7 +110,7 @@ function library:CreateWindow(name, version, icon)
 
 	Minimize.Name = "Minimize"
 	Minimize.Parent = TitleBar
-	Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Minimize.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 	Minimize.BackgroundTransparency = 1.000
 	Minimize.Position = UDim2.new(0.953, -24, -0.2, 6)
 	Minimize.Size = UDim2.new(0, 26, 0, 30)
@@ -118,13 +118,13 @@ function library:CreateWindow(name, version, icon)
 
 	_4pxShadow2px_2.Name = "4pxShadow(2px)"
 	_4pxShadow2px_2.Parent = Window
-	_4pxShadow2px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	_4pxShadow2px_2.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 	_4pxShadow2px_2.BackgroundTransparency = 1.000
 	_4pxShadow2px_2.Position = UDim2.new(0, -15, 0, -15)
 	_4pxShadow2px_2.Selectable = true
 	_4pxShadow2px_2.Size = UDim2.new(1, 30, 1, 30)
 	_4pxShadow2px_2.Image = "http://www.roblox.com/asset/?id=5761504593"
-	_4pxShadow2px_2.ImageColor3 = Color3.fromRGB(49, 49, 59)
+	_4pxShadow2px_2.ImageColor3 = Color3.fromRGB(10, 24, 225)
 	_4pxShadow2px_2.ImageTransparency = 0.300
 	_4pxShadow2px_2.ScaleType = Enum.ScaleType.Slice
 	_4pxShadow2px_2.SliceCenter = Rect.new(17, 17, 283, 283)
@@ -226,7 +226,7 @@ function library:CreateWindow(name, version, icon)
 
 		Tabs.Name = "Tabs"
 		Tabs.Parent = Window
-		Tabs.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
+		Tabs.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 		Tabs.Position = UDim2.new(0, 5, 0, 36)
 		Tabs.Size = UDim2.new(0, 140, 1, -41)
 
@@ -235,13 +235,13 @@ function library:CreateWindow(name, version, icon)
 
 		SectionLabel.Name = "SectionLabel"
 		SectionLabel.Parent = Tabs
-		SectionLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		SectionLabel.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 		SectionLabel.BackgroundTransparency = 1.000
 		SectionLabel.Position = UDim2.new(0, 7, 0, 0)
 		SectionLabel.Size = UDim2.new(1, -7, 0, 30)
 		SectionLabel.Font = Enum.Font.GothamBlack
 		SectionLabel.Text = name --"Section 1"
-		SectionLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		SectionLabel.TextColor3 = Color3.fromRGB(10, 24, 225)
 		SectionLabel.TextSize = 12.000
 		SectionLabel.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -252,18 +252,18 @@ function library:CreateWindow(name, version, icon)
 		--LATER
 		--[[PageButton.Name = "PageButton"
 		PageButton.Parent = Tabs
-		PageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		PageButton.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 		PageButton.BackgroundTransparency = 1.000
 		PageButton.Size = UDim2.new(1, -14, 0, 20)
 		PageButton.Font = Enum.Font.Gotham
 		PageButton.Text = "Page 1"
-		PageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+		PageButton.TextColor3 = Color3.fromRGB(10, 24, 225)
 		PageButton.TextSize = 12.000
 		PageButton.TextXAlignment = Enum.TextXAlignment.Left]]
 
 		Indicator.Name = "Indicator"
 		Indicator.Parent = Tabs
-		Indicator.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+		Indicator.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 		Indicator.BorderSizePixel = 0
 		Indicator.BackgroundTransparency = 1
 		Indicator.Position = UDim2.new(0, -14, 0, 4)
@@ -297,13 +297,13 @@ function library:CreateWindow(name, version, icon)
 			Page.Name = "Page"
 			Page.Parent = Window
 			Page.Active = true
-			Page.BackgroundColor3 = Color3.fromRGB(40, 40, 48)
-			Page.BorderColor3 = Color3.fromRGB(27, 42, 53)
+			Page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			Page.BorderColor3 = Color3.fromRGB(10, 24, 225)
 			Page.BorderSizePixel = 0
 			Page.Position = UDim2.new(0, 150, 0, 36)
 			Page.Size = UDim2.new(1, -155, 1, -41)
 			Page.ScrollBarThickness = 5
-			Page.ScrollBarImageColor3 = Color3.fromRGB(135, 255, 135)
+			Page.ScrollBarImageColor3 = Color3.fromRGB(10, 24, 225)
 			Page.AutomaticCanvasSize = "Y"
 			Page.Visible = false
 
@@ -331,22 +331,22 @@ function library:CreateWindow(name, version, icon)
 
 			SearchIcon.Name = "SearchIcon"
 			SearchIcon.Parent = SearchBar
-			SearchIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			SearchIcon.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 			SearchIcon.BackgroundTransparency = 1.000
 			SearchIcon.Position = UDim2.new(0, 6, 0, 6)
 			SearchIcon.Size = UDim2.new(0, 18, 0, 18)
 			SearchIcon.Image = "rbxassetid://10045418551"
-			SearchIcon.ImageColor3 = Color3.fromRGB(135, 255, 135)
+			SearchIcon.ImageColor3 = Color3.fromRGB(10, 24, 225)
 
 			Bar_3.Name = "Bar"
 			Bar_3.Parent = SearchBar
-			Bar_3.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+			Bar_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Bar_3.Position = UDim2.new(0, 30, 0, 10)
 			Bar_3.Size = UDim2.new(0, 1, 1, -20)
 
 			SearchBox.Name = "SearchBox"
 			SearchBox.Parent = SearchBar
-			SearchBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			SearchBox.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 			SearchBox.BackgroundTransparency = 1.000
 			SearchBox.Position = UDim2.new(0, 40, 0, 1)
 			SearchBox.Size = UDim2.new(1, -40, 1, 0)
@@ -360,7 +360,7 @@ function library:CreateWindow(name, version, icon)
 
 			Section.Name = "Section"
 			Section.Parent = Page
-			Section.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Section.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 			Section.BackgroundTransparency = 1.000
 			Section.BorderSizePixel = 0
 			Section.Position = UDim2.new(0.0170000363, 0, 0.0968660116, 0)
@@ -512,12 +512,12 @@ function library:CreateWindow(name, version, icon)
 			local PageButton = Instance.new("TextButton")
 			PageButton.Name = "PageButton"
 			PageButton.Parent = Tabs
-			PageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			PageButton.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 			PageButton.BackgroundTransparency = 1.000
 			PageButton.Size = UDim2.new(1, -14, 0, 20)
 			PageButton.Font = Enum.Font.Gotham
 			PageButton.Text = name
-			PageButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+			PageButton.TextColor3 = Color3.fromRGB(10, 24, 225)
 			PageButton.TextSize = 12.000
 			PageButton.TextTransparency = 0.5
 			PageButton.TextXAlignment = Enum.TextXAlignment.Left
@@ -573,13 +573,13 @@ function library:CreateWindow(name, version, icon)
 
 				Title.Name = "Title"
 				Title.Parent = Button
-				Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Title.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 				Title.BackgroundTransparency = 1.000
 				Title.Position = UDim2.new(0, 7, 0, 1)
 				Title.Size = UDim2.new(1, -7, 0.5, 0)
 				Title.Font = Enum.Font.GothamBlack
 				Title.Text = name
-				Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+				Title.TextColor3 = Color3.fromRGB(10, 24, 225)
 				Title.TextSize = 12.000
 				Title.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -597,7 +597,7 @@ function library:CreateWindow(name, version, icon)
 
 				Caller.Name = "Caller"
 				Caller.Parent = Button
-				Caller.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Caller.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 				Caller.BackgroundTransparency = 0.999
 				Caller.ClipsDescendants = true
 				Caller.Size = UDim2.new(0, 429, 0, 39)
@@ -619,7 +619,7 @@ function library:CreateWindow(name, version, icon)
 
 						Sample.Name = "Sample"
 						Sample.Parent = Ripple
-						Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+						Sample.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 						Sample.BackgroundTransparency = 1.000
 						Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
 						Sample.ImageColor3 = Color3.fromRGB(135, 255, 135)
@@ -676,7 +676,7 @@ function library:CreateWindow(name, version, icon)
 
 				_4pxShadow2px.Name = "4pxShadow(2px)"
 				_4pxShadow2px.Parent = Label
-				_4pxShadow2px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				_4pxShadow2px.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 				_4pxShadow2px.BackgroundTransparency = 1.000
 				_4pxShadow2px.Position = UDim2.new(0, -15, 0, -15)
 				_4pxShadow2px.Selectable = true
@@ -689,12 +689,12 @@ function library:CreateWindow(name, version, icon)
 
 				LabelContent.Name = "LabelContent"
 				LabelContent.Parent = Label
-				LabelContent.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				LabelContent.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 				LabelContent.BackgroundTransparency = 1.000
 				LabelContent.Position = UDim2.new(0, 7, 0, 0)
 				LabelContent.Size = UDim2.new(1, -7, 1, 0)
 				LabelContent.Font = Enum.Font.Gotham
-				LabelContent.TextColor3 = Color3.fromRGB(255, 255, 255)
+				LabelContent.TextColor3 = Color3.fromRGB(10, 24, 225)
 				LabelContent.Text = name
 				LabelContent.TextSize = 12.000
 				LabelContent.TextXAlignment = Enum.TextXAlignment.Left
@@ -735,13 +735,13 @@ function library:CreateWindow(name, version, icon)
 
 				Title_4.Name = "Title"
 				Title_4.Parent = Slider
-				Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Title_4.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 				Title_4.BackgroundTransparency = 1.000
 				Title_4.Position = UDim2.new(0, 7, 0, 0)
 				Title_4.Size = UDim2.new(1, -7, 0, 30)
 				Title_4.Font = Enum.Font.GothamBlack
 				Title_4.Text = name
-				Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+				Title_4.TextColor3 = Color3.fromRGB(10, 24, 225)
 				Title_4.TextSize = 12.000
 				Title_4.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -760,7 +760,7 @@ function library:CreateWindow(name, version, icon)
 
 				Shadow_1.Name = "Shadow_1"
 				Shadow_1.Parent = Indicator_3
-				Shadow_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Shadow_1.BackgroundColor3 = Color3.fromRGB(10, 24, 225)
 				Shadow_1.BackgroundTransparency = 1.000
 				Shadow_1.Position = UDim2.new(0, -15, 0, -15)
 				Shadow_1.Selectable = true
