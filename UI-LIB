@@ -48,13 +48,13 @@ function library:CreateWindow(name, version, icon)
 
 	TitleBar.Name = "TitleBar"
 	TitleBar.Parent = Window
-	TitleBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TitleBar.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
 	TitleBar.BackgroundTransparency = 1.000
 	TitleBar.Size = UDim2.new(1, 0, 0, 30)
 
 	Icon.Name = "Icon"
 	Icon.Parent = TitleBar
-	Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Icon.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
 	Icon.BackgroundTransparency = 1.000
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
